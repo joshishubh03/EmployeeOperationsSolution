@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Database\Lab01-RelationalSchemaDesign\03_ValidateSchemaAndData.sql" />
+    <None Include="Database\Lab6-QueryPerformanceExecutionPlans\03_SargabilityAndRewrites.sql" />
+    <None Include="Database\Lab5-StoredProcedures\03_UpdateEmployeeSalary.sql" />
+    <None Include="Database\Lab4-IndexOptimization\03_CreateAndTestIndexes.sql" />
+    <None Include="Database\Lab3-TransactionsAndDataIntegrity\03_MultiTableTransaction.sql" />
+    <None Include="Database\Lab2-SQLQueriesAndJoins\03_AggregatesAndGrouping.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

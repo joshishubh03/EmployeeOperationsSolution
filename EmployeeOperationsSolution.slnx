@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="EFCoreLab/EFCoreLab.csproj" Id="bdff4428-5d73-4468-b310-e473e17ecd11" />
+  <Project Path="EmployeeOperations.Application/EmployeeOperations.Application.csproj" />
+  <Project Path="EmployeeOperations.Domain/EmployeeOperations.Domain.csproj" />
+  <Project Path="EmployeeOperations.Infrastructure/EmployeeOperations.Infrastructure.csproj" />
+  <Project Path="EmployeeOperationsSolution/EmployeeOperationsSolution.csproj" />
+</Solution>
